@@ -6,9 +6,9 @@ func main() {
 	a := make([]int, 10)
 	a = append(a, 10)
 	a = append(a, 20)
-	a[20] = 30
+
 	for i := range a {
-		fmt.Printf("%d\n", i)
+		fmt.Printf("a[%d] = %d\n", i, a[i])
 	}
 }
 
