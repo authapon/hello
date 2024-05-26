@@ -7,8 +7,10 @@ func main() {
 	a = append(a, 10)
 	a = append(a, 20)
 
+	b := "tttt"
+
 	for i := range a {
-		fmt.Printf("a[%d] = %d\n", i, a[i])
+		fmt.Printf("a[%02d] = %d, %s\n", i, a[i], b)
 	}
 }
 
